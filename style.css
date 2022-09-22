@@ -1,0 +1,282 @@
+body {
+    background-color: aquamarine;
+}
+
+#body {
+    background-color: black;
+}
+
+h1 {
+    height: 20vh;
+}
+
+
+p {
+    font-size: 5em;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    bottom: 165px;
+    position: relative;
+}
+
+p:hover {
+    color: hotpink;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 white, 0 -3px black;
+
+}
+
+#title {
+    background-color: rgba(230, 15, 201, 0.24);
+    height: 60vh;
+    position: relative;
+    top: 70px;
+    left: 170px;
+    width: 30vw;
+    border: inset;
+}
+#title:hover {
+    background-color: rgba(230, 15, 201, 0.3);
+    cursor: pointer;
+}
+
+#restart-button {
+    position: relative;
+    bottom: 190px;
+    border: inset;
+    background-color: pink;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#restart-button:hover {
+    
+    background-color:rgba(185, 168, 174, 45%) ;
+    cursor: pointer;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    /*display: inline-block;*/
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    position: center;
+}
+
+/*.col-4 offset-4 {
+    position: center;
+    margin: 0 auto;*/
+
+.container {
+    /*flex-wrap: wrap;*/
+    /*transform: scaleX(0.7) scaleY(1.3);*/ /* Equal to scaleX(0.7) scaleY(0.7) */
+    height: 100vh;
+    width: 95vw;
+    
+    background-color: rgba(0, 0, 0, 0.62);
+    margin-bottom: 10px;
+    margin: 0 auto;
+    border: none;
+}
+
+.scaled {
+    transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+    background-color: pink;
+}
+#game div {
+  /*border: 3px solid hotpink;*/
+  border: inset;
+  border-radius: 5px;
+  width: 10vw;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  background-color: rgba(230, 15, 201, 0.3);
+  left: 50px;
+  top: 25px;
+
+
+ 
+
+  /*margin: 0 auto;*/
+}
+
+#game div:hover {
+    background-color: rgba(230, 15, 201, 0.5);
+}
+
+
+.gameWindow {
+    width: 50vw;
+    height: 80vh;
+    /*border: 10px solid pink;*/
+
+    margin: 100px 471.5px 50px 471.5px;
+    /*background-color: tan;*/
+    background-color: rgba(0, 0, 0, 0.62);
+    position: relative;
+    top: 140px;
+    /*left: 60px;*/
+    border: none;
+}
+
+.hiddenGameWindow {
+    display: none;
+}
+
+#clicked {
+    border: 5px solid gold;
+}
+
+.is_Purple {
+    background-color: purple;
+}
+
+#start-button {
+    border: inset;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    background-color: rgba(185, 168, 174, 45%);
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 145px;
+}
+
+#start-button:hover {
+    
+    background-color: hotpink;
+    cursor: pointer;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    /*border: solid 3px black;*/
+}
+#start {
+    height: 75vh;
+    font-family: 'Bungee', cursive;
+    color: rgba(139, 94, 210, 0.92);
+    color: deeppink;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 95px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    text-shadow: -2px 0 white, 0 2px white, 3px 0 white, 0 -2px white;
+    width: 50vw;
+}
+
+#start.playing {
+  margin-top: -90vh;
+  transition: margin-top 1s;
+}
+
+#start.playing + #game {
+  /*display: flex;*/
+}
+
+/*TESTING HERE FLIPPING*/
+
+.scene {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #CCC;
+    margin: 40px 0;
+    perspective: 600px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+
+.red {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+.blue {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+.green {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+.orange {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+.purple {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;set
+}
+
+    .card.is-flipped {
+        transform: translateX(-100%) rotateY(-180deg);
+    }
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    backface-visibility: hidden;
+}
+
+.card__face--front {
+    background: red;
+}
+
+.card__face--back {
+    background: blue;
+    transform: rotateY(180deg);
+}
