@@ -106,7 +106,7 @@ p:hover {
   position: relative;
   background-color: rgba(230, 15, 201, 0.3);
   left: 50px;
-  top: 25px;
+  top: 45px;
 
 
  
@@ -260,7 +260,7 @@ p:hover {
         transform: translateX(-100%) rotateY(-180deg);
     }
 
-.card__face {
+/*.card__face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -279,4 +279,307 @@ p:hover {
 .card__face--back {
     background: blue;
     transform: rotateY(180deg);
+}*/
+
+@media(max-width: 1500px) {
+    .gameWindow {
+        width: 40vw;
+        height: 100vh;
+        /*border: 10px solid pink;*/
+
+        margin: 100px 471.5px 50px 471.5px;
+        /*background-color: tan;*/
+        background-color: rgba(0, 0, 0, 0.62);
+        position: relative;
+        top: 45px;
+        right: 114px;
+        border: none;
+    }
+
+    #game div {
+        /*border: 3px solid hotpink;*/
+        border: inset;
+        border-radius: 5px;
+        width: 145px;
+        height: 200px;
+        margin: 10px;
+        display: inline-block;
+        position: relative;
+        background-color: rgba(230, 15, 201, 0.3);
+        justify-content: center;
+        top: 25px;
+        
+        /*margin: 0 auto;*/
+    }
+
+        #game div:hover {
+            background-color: rgba(230, 15, 201, 0.5);
+        }
+
+
+    #title {
+        background-color: rgba(230, 15, 201, 0.24);
+        height: 60vh;
+        position: relative;
+        top: 70px;
+        left: 125px;
+        width: 30vw;
+        border: inset;
+    }
+
+        #title:hover {
+            background-color: rgba(230, 15, 201, 0.3);
+            cursor: pointer;
+        }
+
+    #start-button {
+        border: inset;
+        position: relative;
+        bottom: 100px;
+        left: 25px;
+        background-color: rgba(185, 168, 174, 45%);
+        -webkit-font-smoothing: antialiased;
+        font-weight: normal;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+        width: 145px;
+    }
+
+        #start-button:hover {
+            background-color: hotpink;
+            cursor: pointer;
+            color: black;
+            -webkit-font-smoothing: antialiased;
+            font-weight: normal;
+            text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+            /*border: solid 3px black;*/
+        }
+
+    /*@media(min-width: 1300px) {
+        #game div {*/
+            /*border: 3px solid hotpink;*/
+            /*border: inset;
+            border-radius: 5px;
+            width: 10vw;
+            height: 200px;
+            margin: 10px;
+            display: inline-block;
+            position: relative;
+            background-color: rgba(230, 15, 201, 0.3);
+            left: 50px;
+            top: 25px;*/
+            /*margin: 0 auto;*/
+        /*}
+
+            #game div:hover {
+                background-color: rgba(230, 15, 201, 0.5);
+            }
+    }*/
+}
+@media(max-width: 1453px) {
+    .gameWindow {
+        width: 581px;
+        height: 952px;
+        /*border: 10px solid pink;*/
+
+        margin: 100px 471.5px 50px 471.5px;
+        /*background-color: tan;*/
+        background-color: rgba(0, 0, 0, 0.62);
+        position: relative;
+        top: 45px;
+        right: 114px;
+        border: none;
+    }
+
+    #game div {
+        /*border: 3px solid hotpink;*/
+        border: inset;
+        border-radius: 5px;
+        width: 145px;
+        height: 200px;
+        margin: 10px;
+        display: inline-block;
+        position: relative;
+        background-color: rgba(230, 15, 201, 0.3);
+        justify-content: center;
+        top: 25px;
+        /*margin: 0 auto;*/
+    }
+
+        #game div:hover {
+            background-color: rgba(230, 15, 201, 0.5);
+        }
+
+
+    #title {
+        background-color: rgba(230, 15, 201, 0.24);
+        height: 60vh;
+        position: relative;
+        top: 70px;
+        left: 125px;
+        width: 30vw;
+        border: inset;
+    }
+
+        #title:hover {
+            background-color: rgba(230, 15, 201, 0.3);
+            cursor: pointer;
+        }
+
+    #start-button {
+        border: inset;
+        position: relative;
+        bottom: 100px;
+        left: 25px;
+        background-color: rgba(185, 168, 174, 45%);
+        -webkit-font-smoothing: antialiased;
+        font-weight: normal;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+        width: 145px;
+    }
+
+        #start-button:hover {
+            background-color: hotpink;
+            cursor: pointer;
+            color: black;
+            -webkit-font-smoothing: antialiased;
+            font-weight: normal;
+            text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+            /*border: solid 3px black;*/
+        }
+   
+@media(max-width: 1300px) {
+    .gameWindow {
+        width: 581px;
+        height: 952px;
+        /*border: 10px solid pink;*/
+
+        margin: 100px 471.5px 50px 471.5px;
+        /*background-color: tan;*/
+        background-color: rgba(0, 0, 0, 0.62);
+        position: relative;
+        top: 45px;
+        left: -114px;
+        border: none;
+    } 
+
+}
+@media(max-width: 1200px) {
+    .gameWindow {
+        width: 581px;
+        height: 952px;
+        /*border: 10px solid pink;*/
+
+        margin: 100px 471.5px 50px 471.5px;
+        /*background-color: tan;*/
+        background-color: rgba(0, 0, 0, 0.62);
+        position: relative;
+        top: 45px;
+        left: -200px;
+        border: none;
+    }
+    #start {
+        height: 75vh;
+        font-family: 'Bungee', cursive;
+        color: rgba(139, 94, 210, 0.92);
+        color: deeppink;
+        position: relative;
+        border-radius: 5px;
+        margin-top: 95px;
+        -webkit-font-smoothing: antialiased;
+        font-weight: normal;
+        text-shadow: -2px 0 white, 0 2px white, 3px 0 white, 0 -2px white;
+        width: 50vw;
+        background-color: rgba(0,0,0,0);
+    }
+    #title {
+        background-color: rgba(230, 15, 201, 0);
+        height: 60vh;
+        position: relative;
+        top: 70px;
+        left: 400px;
+        width: 30vw;
+        border: none;
+    }
+
+        p:hover {
+            background-color: rgba(230, 15, 201, 0.3);
+            cursor: pointer;
+        }
+    #title:hover {
+        background-color: rgba(230, 15, 201, 0.0);
+    }
+    p {
+        position: relative;
+        right: 250px;
+    }
+    #start-button {
+        border: inset;
+        position: relative;
+        bottom: 100px;
+        left: 55px;
+        background-color: rgba(185, 168, 174, 45%);
+        -webkit-font-smoothing: antialiased;
+        font-weight: normal;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+        width: 145px;
+    }
+
+        #start-button:hover {
+            background-color: hotpink;
+            cursor: pointer;
+            color: black;
+            -webkit-font-smoothing: antialiased;
+            font-weight: normal;
+            text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+            /*border: solid 3px black;*/
+        }
+
+}
+}
+@media(max-width: 1100px) {
+    .gameWindow {
+        width: 581px;
+        height: 952px;
+        /*border: 10px solid pink;*/
+
+        margin: 100px 471.5px 50px 471.5px;
+        /*background-color: tan;*/
+        background-color: rgba(0, 0, 0, 0.62);
+        position: relative;
+        top: 45px;
+        left: -300px;
+        border: none;
+    }
+    #game div {
+        /*border: 3px solid hotpink;*/
+        border: inset;
+        border-radius: 5px;
+        width: 145px;
+        height: 200px;
+        margin: 10px;
+        display: inline-block;
+        position: relative;
+        background-color: rgba(230, 15, 201, 0.3);
+        justify-content: center;
+        top: 25px;
+        /*margin: 0 auto;*/
+    }
+
+        #game div:hover {
+            background-color: rgba(230, 15, 201, 0.5);
+        }
+   #title {
+       /*width: 600px;*/
+
+   }
+}
+@media(max-width: 800px) {
+    #title {
+        position: relative;
+        left: 250px;
+    }
+    #start-button {
+        position: relative;
+        left: -40px;
+    }
 }
